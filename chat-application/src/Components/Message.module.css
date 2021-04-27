@@ -1,0 +1,89 @@
+.currentUser {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 15px;
+    margin-right: 70px;
+}
+
+.currentUser div {
+    /* background-color: #FF662B; */
+    /* background-color: #102518; */
+    background: #06bede41;
+    /* background-color: #2F4035; */
+    max-width: 300px;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    word-wrap: break-word;
+}
+
+.currentUser div p,
+.otherUser div p,
+.admin p {
+    margin: 0;
+}
+
+.admin {
+    color: bisque;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.currentUser div p::first-letter,
+.otherUser div p::first-letter,
+.admin p::first-letter {
+    text-transform: capitalize;
+}
+
+.otherUser {
+    /* background-color: #993E1A; */
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 15px;
+    position: relative;
+}
+
+.otherUser__userName {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.otherUser__userName .otherUser__userName__drop {
+    font-size: 40px;
+    transform: rotatez(180deg);
+}
+
+.otherUser__userName .userName {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #182222;
+}
+
+.otherUser>.otherUser__message {
+    /* background-color: #e21d5f41; */
+    background-color: rgba(64, 87, 72, 0.589);
+    /* background-color: #993E1A; */
+    /* background-color: #102518; */
+    /* background: #4f3e335b; */
+    max-width: 300px;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    word-wrap: break-word;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5.5px);
+}
