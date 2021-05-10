@@ -24,7 +24,6 @@ Motivation of this project is to understand and implement the websockets.
 ![Chat Page](https://user-images.githubusercontent.com/59644914/117563607-a435cd00-b0c4-11eb-9e37-6c1631b8c623.JPG)
 
 ## Setup
-Describe how to install
 ### To clone the project
 ```
 https://github.com/Naeemns/chat-karo.git
