@@ -1,5 +1,5 @@
 # Chat Karo
-> A real-time chat application to have instant communication among a group of people. 
+> A real-time chat application for instant communication amongst a group of people. 
 
 ## Table of contents
 * [General info](#general-info)
